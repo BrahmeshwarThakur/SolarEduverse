@@ -51,6 +51,7 @@ const Form = () => {
             setSubject(e.target.value);
           }}
         />
+        <label> Message</label>
         <input
           onChange={(e) => {
             setMessage(e.target.value);
